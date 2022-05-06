@@ -16,4 +16,14 @@ ___
 
 Para configurar Nginx copiaremos el archivo default ubicado en la ruta del archivo para utilizarlo como plantilla, estableciendo nuestra URL personalizada.
 
-Como nos solicita 2 subdominios, los cuales crearemos con el dominio principal y para ellos serán necesarios los siguientes comandos para crear estos archivos
+Como nos solicita 2 subdominios, los cuales crearemos con el dominio principal y para ellos será necesario crearlo mediante código.
+
+Cuando hayamos creado estos dos subdominios debemos editarlos para cambiar la configuración del archivo, cambiando la página web (la ruta) y la IP dónde debe conectarse Nginx, en este caso pondremos de URL: *root var/www/adria* y de IP: (nuestra IP).
+
+![image](https://user-images.githubusercontent.com/98842240/167171280-3a194d1d-d74a-4af4-80fb-a52adbbc1534.png)
+
+Cuando accedamos a esta ubicación debemos lanzar este comando:
+
+![image](https://user-images.githubusercontent.com/98842240/167171462-306e8f96-e9c1-4bfd-9ead-2df86cac186c.png)
+ 
+ dónde tenemos que añadir el nombre de nuestro servidor, en mi caso se llama "AJDL"
