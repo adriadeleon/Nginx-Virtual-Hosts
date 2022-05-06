@@ -11,6 +11,9 @@ Nginx es un servidor web/proxy inverso ligero de alto rendimiento y un proxy par
 NGINX es un servidor web open source de alta performance que ofrece el contenido estático de un sitio web de forma rápida y fácil de configurar. Ofrece recursos de equilibrio de carga, proxy inverso y streaming, además de gestionar miles de conexiones simultáneas.
 
 ___
-- Instalación Nginx.
+- Instalación y Configuración Nginx.
 ___
 
+Para configurar Nginx copiaremos el archivo default ubicado en la ruta del archivo para utilizarlo como plantilla, estableciendo nuestra URL personalizada.
+
+Como nos solicita 2 subdominios, los cuales crearemos con el dominio principal y para ellos serán necesarios los siguientes comandos para crear estos archivos
