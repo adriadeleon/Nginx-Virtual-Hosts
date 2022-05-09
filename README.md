@@ -48,4 +48,15 @@ Cuando realizemos las dos copias debemos modificar el primer archivo, en mi caso
 Cuando hayamos accedido al archivo *AJDL* debemos acceder a la línea que contiene la palabra *server_name _* y debemos cambiarlo por *server_name AJDL.com*, una vez realizado esto, debemos ir a la línea root y cambiar *root /var/www/web (como ejemplo)* por *root /var/www/AJDL.com (nombre de mi subdominio)*.
 
 - Una vez modificado el primer subdominio debemos acceder al segundo y realizar exactamente los mismos pasos, pero en este caso poner de nombre *AJDL1*.
+ ___
  
+ Una vez hayamos configurado todo, debemos ir a una página web y escribir la url de nuestro subdominio, después de esto debemos hacer que el host se conecte mediante la ip de nuestro ordenador. 
+ 
+ Para ello modificamos el archivo *host*.
+ ![image](https://user-images.githubusercontent.com/98842240/167390562-e21a65ee-b137-4896-8648-236145b1b50a.png)
+
+Debemos editarlo y poner la ip del host con la url de nuestro subdominio.
+
+Una vez hecho esto debemos acceder a la ruta */var/www/* con el comando que vimos con anterioridad, enn este caso el comando *cd*, una vez dentro debemos crear con el comando *mkdir* dos directorios con los nombres de los subdominios *AJDL* y *AJDL1*.
+
+Cuando entremos a estos directorios debemos crear un archivo *index.html* y modificarlo con el código html referente al juego que queramos añadir en ese subdominio
