@@ -59,4 +59,18 @@ Debemos editarlo y poner la ip del host con la url de nuestro subdominio.
 
 Una vez hecho esto debemos acceder a la ruta */var/www/* con el comando que vimos con anterioridad, enn este caso el comando *cd*, una vez dentro debemos crear con el comando *mkdir* dos directorios con los nombres de los subdominios *AJDL* y *AJDL1*.
 
-Cuando entremos a estos directorios debemos crear un archivo *index.html* y modificarlo con el código html referente al juego que queramos añadir en ese subdominio
+Cuando entremos a estos directorios debemos crear un archivo *index.html* y modificarlo con el código html referente al juego que queramos añadir en ese subdominio.
+
+Para poder visualizar los juegos debemos ir al navegador y mediante Nginx debemos entrar con las url del subdominio mientras se conecta a nuestra ip del ordenador:
+
+- AJDL.com:
+![image](https://user-images.githubusercontent.com/98842240/167391226-33698bea-044f-4e8c-b366-c3ab7a56de55.png)
+
+- AJDL1.com:
+![image](https://user-images.githubusercontent.com/98842240/167391318-fac52df3-48a5-4296-9516-f52793d5427e.png)
+
+___
+
+- **Opinión personal:** Me ha costado más hacerlo esta vez que la primera vez que lo hiicmos antes de Pascua, me dio un fallo a la hora de reiniciar Nginx ya que al reiniciarlo de golpe se me borró del sistema y tuve que volver a instalarlo y generar todos los aarchivos de nuevo, no hubo problema pero perdí tiempo por eso.
+
+Adrià
