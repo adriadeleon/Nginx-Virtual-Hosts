@@ -43,5 +43,9 @@ Cuando accedamos a esta ubicación debemos lanzar este comando:
  
  ![image](https://user-images.githubusercontent.com/98842240/167388936-bc141f25-7d2b-4b5f-929d-8969860444d9.png)
 
+Cuando realizemos las dos copias debemos modificar el primer archivo, en mi caso *AJDL*, para ello lo realizamos con el comando *vim* este comando puede ser que no esté instalado en tú máquina, por lo cual deberás instalarlo manualmente mediante consola mediante *apt install*.
 
+Cuando hayamos accedido al archivo *AJDL* debemos acceder a la línea que contiene la palabra *server_name _* y debemos cambiarlo por *server_name AJDL.com*, una vez realizado esto, debemos ir a la línea root y cambiar *root /var/www/web (como ejemplo)* por *root /var/www/AJDL.com (nombre de mi subdominio)*.
+
+- Una vez modificado el primer subdominio debemos acceder al segundo y realizar exactamente los mismos pasos, pero en este caso poner de nombre *AJDL1*.
  
